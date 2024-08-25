@@ -17,7 +17,10 @@ namespace MVCCRUD.Controllers
         {
             return View();
         }
-
+        public IActionResult CV()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

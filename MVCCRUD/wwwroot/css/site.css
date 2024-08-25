@@ -16,3 +16,57 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77B5FE 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+.main-image {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #333;
+    text-align: center;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.6;
+}
