@@ -1,12 +1,18 @@
 
-CREATE DATABASE MVCCRUD
-USE MVCCRUD
+CREATE DATABASE DBCRUDCORE;
 
-CREATE TABLE Usuarios(
-Id int identity(1,1) primary key,
-Nombre varchar(50),
-Fecha date,
-Clave varchar(50)
-)
+USE DBCRUDCORE;
 
-select * from Usuarios
+CREATE TABLE logins (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    Usuario NVARCHAR(50),
+    Contraseña NVARCHAR(50)
+);
+
+
+CREATE TABLE Usuarios (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(100) NOT NULL,
+    Fecha DATETIME NOT NULL,
+    Clave NVARCHAR(50) NOT NULL
+);
